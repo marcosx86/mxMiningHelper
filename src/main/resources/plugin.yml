@@ -1,0 +1,7 @@
+name: mxMiningHelper
+main: net.m21xx.mc.mininghelper.mxMiningHelper
+version: 0.0.1
+commands:
+  mininghelper:
+    description: MiningHelper main command
+    usage: /mininghelper [args...]
