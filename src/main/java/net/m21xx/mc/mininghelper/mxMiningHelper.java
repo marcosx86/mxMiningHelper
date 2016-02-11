@@ -51,24 +51,24 @@ public class mxMiningHelper extends JavaPlugin {
 	
 	private void loadConfigurations() {
 		reloadConfig();
-    	vCfgUseNickname = parseConfig("Use_Nickname", false);
+    	vCfgUseNickname = parseConfig("use_nicknames", false);
     	
-    	vCfgMsgMining = parseConfig("Messages.Found_Notification", "%ply found %amt %blk(s) (Visibility: %vis%)");
+    	vCfgMsgMining = parseConfig("messages.found", "%ply found %amt %blk(s) (Visibility: %vis%)");
     	
 		vBlocks = new ArrayList<Material>();
-		if (parseConfig("EMERALDS", true))
+		if (parseConfig("ores.emerald", true))
 			vBlocks.add(Material.EMERALD_ORE);
-		if (parseConfig("DIAMONDS", true))
+		if (parseConfig("ores.diamonds", true))
 			vBlocks.add(Material.DIAMOND_ORE);
-		if (parseConfig("GOLD", true))
+		if (parseConfig("ores.gold", true))
 			vBlocks.add(Material.GOLD_ORE);
-		if (parseConfig("IRON", true))
+		if (parseConfig("ores.iron", true))
 			vBlocks.add(Material.IRON_ORE);
-		if (parseConfig("COAL", true))
+		if (parseConfig("ores.coal", true))
 			vBlocks.add(Material.COAL_ORE);
-		if (parseConfig("LAPIS", true))
+		if (parseConfig("ores.lapis", true))
 			vBlocks.add(Material.LAPIS_ORE);
-		if (parseConfig("REDSTONE", true)) {
+		if (parseConfig("ores.redstone", true)) {
 			vBlocks.add(Material.GLOWING_REDSTONE_ORE);
 			vBlocks.add(Material.REDSTONE_ORE);
 		}

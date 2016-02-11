@@ -4,6 +4,12 @@
   <artifactId>mxMiningHelper</artifactId>
   <version>0.1-SNAPSHOT</version>
   <name>mxMiningHelper</name>
+  <developers>
+  	<developer>
+  		<name>Marcos Silva Cunha</name>
+  		<email>marcos21xx@gmail.com</email>
+  	</developer>
+  </developers>
   <dependencies>
   	<dependency>
   		<groupId>org.bukkit</groupId>
@@ -15,5 +21,7 @@
   <repositories>
   	<repository>
   		<id>https://hub.spigotmc.org/nexus/content/groups/public/</id>
-  		<url>https://hub.spigotmc.org/nexus/content/groups/public/</url></repository></repositories>
+  		<url>https://hub.spigotmc.org/nexus/content/groups/public/</url>
+  	</repository>
+  </repositories>
 </project>
